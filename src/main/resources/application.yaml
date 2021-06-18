@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: xxx
+    port: 31003
+  datasource:
+    type: oracle.jdbc.pool.OracleDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: xxx
+    password: boss_collection
+    username: boss_collection
+  jdbc:
+    template:
+      fetch-size: 1000
+
+
